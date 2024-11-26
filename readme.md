@@ -1,4 +1,4 @@
-# Flask Starter Code for Local Environment
+# Flask Starter Code 
 =============================================
 
 This directory contains a Flask starter code for a local environment. The code is organized into several files, each with a specific purpose.
@@ -16,6 +16,7 @@ The following files demonstrate different logging configurations for a Flask app
 * `app_all_log_single_file.py`: Logs all application logs to a single file (`app.log`).
 * `app_all_log_categorywise.py`: Logs application logs to separate files based on categories (e.g., `app.log` and `werkzeug.log`).
 * `app_werkzeug_logs_only.py`: Logs only Werkzeug logs to a file (`werkzeug.log`). 
+* you can start with any one file 
 
 ## Logging Routes
 -----------------
@@ -28,7 +29,7 @@ The `app_all_log_categorywise.py` file includes routes for displaying logs:
 * `/logs/werkzeug/<int:line_count>`: Displays a specified number of werkzeug log lines from last.
 
 
-## API Endpoints
+## API Endpoints for testing purpose
 ----------------
 
 The `app_all_log_categorywise.py` file includes API endpoints for testing logging:
@@ -39,6 +40,10 @@ The `app_all_log_categorywise.py` file includes API endpoints for testing loggin
 ## Running the Application
 -------------------------
 
-To run the application, execute the following command:
+To run the application, execute the following command: (change file name as per requirements)
 ```bash
 python app.py
+```
+
+## Note
+* creating new fresh environment is recommended, environment must have flask
